@@ -1,25 +1,27 @@
 # esx_weaponshop
 
-## Download & Installation
+## 说明
+- 这个插件不适用于官方ESX
+- 这是基于魔改版修改的版本
+- 如有使用问题请添加qq群：208486207
+- 点击链接加入群【FiveM中文网官方群】：https://jq.qq.com/?_wv=1027&k=5BOQycm
 
-### Using [fvm](https://github.com/qlaffont/fvm-installer)
-```
-fvm install --save --folder=esx esx-org/esx_weaponshop
-```
+## 下载 & 安装
 
-### Using Git
+
+### 使用 Git
 ```
 cd resources
 git clone https://github.com/ESX-Org/esx_weaponshop.git [esx]/esx_weaponshop
 ```
 
-### Manually
-- Download https://github.com/ESX-Org/esx_weaponshop/archive/master.zip
-- Put it in the `[esx]` directory
+### 手动
+- 下载 https://github.com/ESX-Org/esx_weaponshop/archive/master.zip
+- 解压至 `[esx]` 目录
 
-## Installation
-- Import `esx_weaponshop.sql` in your database
-- Add this to your `server.cfg`:
+## 安装
+- 将 `esx_weaponshop.sql` 导入你的数据库
+- 添加这个至你的 `server.cfg`:
 
 ```
 start esx_weaponshop

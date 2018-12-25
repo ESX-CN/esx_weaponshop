@@ -9,8 +9,8 @@ CREATE TABLE `weashops` (
 	PRIMARY KEY (`id`)
 );
 
-INSERT INTO `licenses` (`type`, `label`) VALUES
-	('weapon', "Permis de port d'arme")
+INSERT INTO `licenses` (`type`, `label`, `label_cn`, `label_zh`) VALUES
+	('weapon', "Weapon Carrier License", "持枪证", "持槍證")
 ;
 
 INSERT INTO `weashops` (`zone`, `item`, `price`) VALUES
