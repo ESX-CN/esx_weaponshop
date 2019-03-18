@@ -131,7 +131,7 @@ function DisplayBoughtScaleform(weaponName, price)
 end
 
 AddEventHandler('esx_weaponshop:hasEnteredMarker', function(zone)
-	if zone == 'GunShop' then
+	if zone == 'GunShop' or zone == 'BlackWeashop' then
 		CurrentAction     = 'shop_menu'
 		CurrentActionMsg  = _U('shop_menu_prompt')
 		CurrentActionData = { zone = zone }
@@ -243,4 +243,9 @@ Citizen.CreateThread(function()
 			end
 		end
 	end
+end)
+
+RegisterNetEvent('esx:showWeaponNotification')
+AddEventHandler('esx:showWeaponNotification', function(msg,...)
+	ESX.ShowNotification(_U(msg,...))
 end)
