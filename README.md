@@ -12,7 +12,7 @@
 ### 使用 Git
 ```
 cd resources
-git clone https://github.com/ESX-CN/esx_weaponshop.git [esx]/esx_weaponshop
+git clone https://github.com/ESX-CN/esx_weaponshop [esx]/esx_weaponshop
 ```
 
 ### 手动
