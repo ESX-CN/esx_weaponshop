@@ -1,4 +1,4 @@
-Locales ['zh'] = {
+Locales ['tc'] = {
   ['buy_license'] = '購買持槍證？',
   ['yes'] = '%s',
   ['no'] = '取消',
