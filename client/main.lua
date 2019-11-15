@@ -68,9 +68,9 @@ function OpenShopMenu(zone)
 
 	for i=1, #Config.Zones[zone].Items, 1 do
 		local item = Config.Zones[zone].Items[i]
-
+		
 		table.insert(elements, {
-			label = ('%s - <span style="color: green;">%s</span>'):format(item.label, _U('shop_menu_item', ESX.Math.GroupDigits(item.price))),
+			label = ('%s - <span style="color: green;">%s</span>'):format(ESX.GetWeaponLabel(item.item), _U('shop_menu_item', ESX.Math.GroupDigits(item.price))),
 			price = item.price,
 			weaponName = item.item
 		})
