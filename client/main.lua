@@ -34,6 +34,7 @@ function OpenBuyLicenseMenu(zone)
 		align = 'top-left',
 		elements = {
 			{label = _U('no'), value = 'no'},
+			{label = _U('yes', ('<span style="color: green;">%s</span>'):format((_U('shop_menu_item', ESX.Math.GroupDigits(Config.LicensePrice))))), value = 'yes'},
 		}
 	}, function(data, menu)
 		if data.current.value == 'yes' then
